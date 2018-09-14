@@ -15,7 +15,7 @@ extra["kotlin.version"] = plugins.getPlugin(KotlinPluginWrapper::class.java).kot
 plugins {
     val kotlinterVersion = "1.16.0"
     val kotlinVersion = "1.2.61"
-    val springBootVersion = "1.5.14.RELEASE"
+    val springBootVersion = "2.0.5.RELEASE"
     val dependencyManagementVersion = "1.0.6.RELEASE"
 
     application
