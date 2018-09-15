@@ -9,7 +9,6 @@ fun beans() = beans {
 
     bean<UserHandler>()
     bean<Routes>()
-
     bean("webHandler") {
         RouterFunctions.toWebHandler(ref<Routes>().router())
     }
